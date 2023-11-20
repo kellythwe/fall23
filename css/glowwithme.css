@@ -1,0 +1,116 @@
+/* Style Sheet for glowwithme.index.html */
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre&display=swap');
+
+/* RESET STYLESHEET */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Header */
+header {
+    height: 160px;
+    background-color: rgb(212, 237, 223);
+    color: rgb(99, 68, 64);
+    padding: 3%;
+    font-size: 80px;
+    font-family: 'Abril Fatface', serif;
+}
+
+body{
+    font-family: 'Abhaya Libre', serif;
+    background-color: rgb(165, 190, 186);
+}
+
+h1 {
+    color: rgb(99, 68, 64);
+    position:absolute;
+    top: 5%;
+}
+
+nav{
+    width: 60%;
+    position: relative;
+    left: 67%;
+    top: 80%;
+    font-size: 55px;
+}
+
+nav ul li {
+    float: left;
+    list-style-type: none;
+    padding: 2%;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(99, 68, 64);
+}
+
+.active-page {
+    color: rgb(62, 162, 169);
+}
+
+/* Main*/
+
+main{
+    width: 100%;
+    color: rgb(99, 68, 64);
+    background-color: rgb(165, 190, 186);
+    text-align: center;
+}
+
+i {
+    position: absolute;
+    right: 5%;
+    color:rgb(62, 162, 169);
+    background-color: white;
+    height: 110px;
+    width: 15%;
+    border-radius: 50px;
+}
+
+div {
+    width: 50%;
+    margin: auto;
+}
+
+.Join {
+    position: relative;
+    left: 5px;
+}
+.Meet {
+    position: relative;
+    Left: 30px;
+}
+
+div img {
+    width: 100%;
+    position: relative;
+    top: 70px;
+}
+
+
+button {
+    background-color: rgb(212, 237, 223);
+    padding: 3%;
+    color: rgb(99, 68, 64);
+    border-radius: 50px;
+    font-family: 'Abril Fatface', serif;
+    font-size: 55px;
+    position: relative;
+    top: 100px;
+}
+
+footer{
+    color: rgb(99, 68, 64);
+    font-family: 'Abhaya Libre', serif;
+    font-size: 70px;
+    text-align: center;
+    padding-top: 3%;
+    font-weight: bold;
+}
