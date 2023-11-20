@@ -13,11 +13,12 @@
 
 /* Header */
 header {
-    height: 160px;
-    background-color: rgb(212, 237, 223);
+    height: 60px;
+    background-color: rgba(255, 255, 255, 50%);
+    /*background-color: rgb(212, 237, 223);*/
     color: rgb(99, 68, 64);
     padding: 3%;
-    font-size: 80px;
+    font-size: 30px;
     font-family: 'Abril Fatface', serif;
 }
 
@@ -35,9 +36,9 @@ h1 {
 nav{
     width: 60%;
     position: relative;
-    left: 67%;
+    left: 60%;
     top: 80%;
-    font-size: 55px;
+    font-size: 20px;
 }
 
 nav ul li {
@@ -49,6 +50,10 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     color: rgb(99, 68, 64);
+}
+
+nav ul li a:hover {
+    color: rgb(62, 162, 169)sss;
 }
 
 .active-page {
@@ -66,12 +71,16 @@ main{
 
 i {
     position: absolute;
-    right: 5%;
+    right: 3%;
     color:rgb(62, 162, 169);
     background-color: white;
-    height: 110px;
+    height: 30px;
     width: 15%;
     border-radius: 50px;
+}
+
+i:hover{
+    color: rgb(212, 237, 223);
 }
 
 div {
@@ -91,26 +100,26 @@ div {
 div img {
     width: 100%;
     position: relative;
-    top: 70px;
+    top: 40px;
 }
 
 
 button {
-    background-color: rgb(212, 237, 223);
+    background-color: rgba(255, 255, 255, 50%);
     padding: 3%;
     color: rgb(99, 68, 64);
-    border-radius: 50px;
+    border-radius: 30px;
     font-family: 'Abril Fatface', serif;
-    font-size: 55px;
+    font-size: 20px;
     position: relative;
-    top: 100px;
+    top: 50px;
 }
 
 footer{
     color: rgb(99, 68, 64);
     font-family: 'Abhaya Libre', serif;
-    font-size: 70px;
+    font-size: 15px;
     text-align: center;
-    padding-top: 3%;
+    padding-top: 5%;
     font-weight: bold;
 }
