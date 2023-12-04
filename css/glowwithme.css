@@ -53,7 +53,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: rgb(62, 162, 169)sss;
+    color: rgb(62, 162, 169);
 }
 
 .active-page {
@@ -69,28 +69,61 @@ main{
     text-align: center;
 }
 
+.forms-main {
+    background-color: rgba(255, 255, 255, 50%);
+    border-radius: 5%;
+    font-family: 'Abril Fatface', serif;
+    width: 35%;
+    height: 300px;
+    position: relative;
+    top: 120px;
+    left: 400px;
+}
+
 i {
     position: absolute;
     right: 3%;
     color:rgb(62, 162, 169);
     background-color: white;
+    border: 2px solid rgb(165, 190, 186);
     height: 30px;
-    width: 15%;
+    width: 18%;
     border-radius: 50px;
 }
 
 i:hover{
     color: rgb(212, 237, 223);
 }
-
+.password:hover{
+    color: rgb(62, 162, 169);
+}
+.up:hover{
+    color: rgb(62, 162, 169);
+}
 div {
     width: 50%;
     margin: auto;
 }
 
+.btn {
+    color: rgb(99, 68, 64);
+    position:relative;
+    top: 150px;
+    font-family: 'Abril Fatface', serif;
+    background-color: rgba(62, 162, 169, 30%);
+    border-radius: 10%;
+    width: 20%;
+    height: 10%;
+}
+
 .Join {
+    text-decoration: none;
+    color:rgb(99, 68, 64);
     position: relative;
     left: 5px;
+}
+.Join:hover {
+    color:rgb(62, 162, 169);
 }
 .Meet {
     position: relative;
@@ -115,6 +148,51 @@ button {
     top: 50px;
 }
 
+.member {
+    position:absolute;
+    bottom: 80%;
+    left: 40%;
+    font-size: 20px;
+}
+
+.signin {
+    position:absolute;
+    bottom: 70%;
+    left: 43%;
+    font-size: 18px;
+}
+
+.label {
+    position:relative;
+    top: 117px;
+    font-size: 10px;
+    width: 50%;
+    padding: 1%;
+}
+
+.password {
+    text-decoration: none;
+    color: rgb(99, 68, 64);
+    position:absolute;
+    top: 65%;
+    left: 56%;
+    font-size: 10px;
+}
+
+.not {
+    position:absolute;
+    left: 38%;
+    top: 90%;
+    font-size: 10px;
+}
+.up {
+    color: rgb(99, 68, 64);
+    position:absolute;
+    top: 90%;
+    left: 55%;
+    font-size: 10px;
+}
+
 footer{
     color: rgb(99, 68, 64);
     font-family: 'Abhaya Libre', serif;
@@ -122,4 +200,10 @@ footer{
     text-align: center;
     padding-top: 5%;
     font-weight: bold;
+}
+
+.forms-footer {
+    position: absolute;
+    top: 100%;
+    left: 550px;
 }
