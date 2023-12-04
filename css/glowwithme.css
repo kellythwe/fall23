@@ -73,13 +73,23 @@ main{
     background-color: rgba(255, 255, 255, 50%);
     border-radius: 5%;
     font-family: 'Abril Fatface', serif;
-    width: 35%;
-    height: 300px;
+    width: 30%;
+    height: 400px;
     position: relative;
-    top: 120px;
-    left: 400px;
+    top: 70px;
+    left: 450px;
 }
-
+input {
+    background-color:  rgba(255, 255, 255, 0%);
+    border-width: 0;
+    border-bottom: 1px solid rgb(99, 68, 64);
+    position:relative;
+    top: 117px;
+    font-size: 10px;
+    width: 50%;
+    padding: 4%;
+    font-family: 'Abhaya Libre', serif;
+}
 i {
     position: absolute;
     right: 3%;
@@ -108,7 +118,7 @@ div {
 .btn {
     color: rgb(99, 68, 64);
     position:relative;
-    top: 150px;
+    top: 155px;
     font-family: 'Abril Fatface', serif;
     background-color: rgba(62, 162, 169, 30%);
     border-radius: 10%;
@@ -150,38 +160,30 @@ button {
 
 .member {
     position:absolute;
-    bottom: 80%;
+    bottom: 85%;
     left: 40%;
     font-size: 20px;
 }
 
 .signin {
     position:absolute;
-    bottom: 70%;
+    bottom: 75%;
     left: 43%;
     font-size: 18px;
-}
-
-.label {
-    position:relative;
-    top: 117px;
-    font-size: 10px;
-    width: 50%;
-    padding: 1%;
 }
 
 .password {
     text-decoration: none;
     color: rgb(99, 68, 64);
     position:absolute;
-    top: 65%;
-    left: 56%;
-    font-size: 10px;
+    top: 62%;
+    left: 60%;
+    font-size: 8px;
 }
 
 .not {
     position:absolute;
-    left: 38%;
+    left: 35%;
     top: 90%;
     font-size: 10px;
 }
@@ -205,5 +207,5 @@ footer{
 .forms-footer {
     position: absolute;
     top: 100%;
-    left: 550px;
+    left: 580px;
 }
