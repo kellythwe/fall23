@@ -123,9 +123,12 @@ div {
     text-decoration: none;
     color: rgb(99, 68, 64);
     position: relative;
-    Left: 50px;
+    Left: 8px;
+    
 }
-
+.Meet:hover {
+    color: rgb(62, 162, 169);
+}
 div img {
     width: 100%;
     position: relative;
