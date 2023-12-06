@@ -1,0 +1,297 @@
+/* Style Sheet for glowwithme.index.html */
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre&display=swap');
+
+/* RESET STYLESHEET */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Header */
+header {
+    height: 60px;
+    background-color: rgba(255, 255, 255, 50%);
+    /*background-color: rgb(212, 237, 223);*/
+    color: rgb(99, 68, 64);
+    padding: 3%;
+    font-size: 30px;
+    font-family: 'Abril Fatface', serif;
+}
+
+body{
+    font-family: 'Abhaya Libre', serif;
+    background-color: rgb(165, 190, 186);
+}
+
+h1 {
+    color: rgb(99, 68, 64);
+    position:absolute;
+    top: 5%;
+}
+
+nav{
+    width: 60%;
+    position: relative;
+    left: 60%;
+    top: 80%;
+    font-size: 20px;
+}
+
+nav ul li {
+    float: left;
+    list-style-type: none;
+    padding: 2%;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(99, 68, 64);
+}
+
+nav ul li a:hover {
+    color: rgb(62, 162, 169);
+}
+
+.active-page {
+    color: rgb(62, 162, 169);
+}
+
+/* Main*/
+
+main{
+    width: 100%;
+    color: rgb(99, 68, 64);
+    background-color: rgb(165, 190, 186);
+    text-align: center;
+}
+
+.forms-main {
+    background-color: rgba(255, 255, 255, 50%);
+    border-radius: 5%;
+    font-family: 'Abril Fatface', serif;
+    width: 30%;
+    height: 400px;
+    position: relative;
+    top: 70px;
+    left: 450px;
+}
+input {
+    background-color:  rgba(255, 255, 255, 0%);
+    border-width: 0;
+    border-bottom: 1px solid rgb(99, 68, 64);
+    position:relative;
+    top: 117px;
+    font-size: 10px;
+    width: 50%;
+    padding: 4%;
+    font-family: 'Abhaya Libre', serif;
+}
+i {
+    position: absolute;
+    right: 3%;
+    color:rgb(62, 162, 169);
+    background-color: white;
+    border: 2px solid rgb(165, 190, 186);
+    height: 30px;
+    width: 18%;
+    border-radius: 50px;
+}
+
+i:hover{
+    color: rgb(212, 237, 223);
+}
+
+div {
+    width: 50%;
+    margin: auto;
+}
+
+.Join {
+    text-decoration: none;
+    color:rgb(99, 68, 64);
+    position: relative;
+    left: 5px;
+}
+.Join:hover {
+    color:rgb(62, 162, 169);
+}
+.Meet {
+    text-decoration: none;
+    color: rgb(99, 68, 64);
+    position: relative;
+    Left: 8px;
+    
+}
+.Meet:hover {
+    color: rgb(62, 162, 169);
+}
+div img {
+    width: 100%;
+    position: relative;
+    top: 40px;
+}
+
+
+button {
+    background-color: rgba(255, 255, 255, 50%);
+    padding: 3%;
+    color: rgb(99, 68, 64);
+    border-radius: 20px;
+    font-family: 'Abril Fatface', serif;
+    font-size: 20px;
+    position: relative;
+    top: 50px;
+}
+
+footer{
+    color: rgb(99, 68, 64);
+    font-family: 'Abhaya Libre', serif;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 5%;
+    font-weight: bold;
+}
+
+/* Style Sheet for glowwithme.forms.html */
+.btn {
+    position:relative;
+    top: 155px;
+    font-family: 'Abril Fatface', serif;
+    background-color: rgba(62, 162, 169, 30%);
+    border-radius: 10%;
+    width: 20%;
+    height: 10%;
+}
+.password:hover{
+    color: rgb(62, 162, 169);
+}
+.up:hover{
+    color: rgb(62, 162, 169);
+}
+
+.signin {
+    position:absolute;
+    bottom: 75%;
+    left: 43%;
+    font-size: 18px;
+}
+
+.password {
+    text-decoration: none;
+    color: rgb(99, 68, 64);
+    position:absolute;
+    top: 62%;
+    left: 60%;
+    font-size: 8px;
+}
+
+.not {
+    position:absolute;
+    left: 35%;
+    top: 90%;
+    font-size: 10px;
+}
+.up {
+    color: rgb(99, 68, 64);
+    position:absolute;
+    top: 90%;
+    left: 55%;
+    font-size: 10px;
+}
+
+.member {
+    position:absolute;
+    bottom: 85%;
+    left: 40%;
+    font-size: 20px;
+}
+
+.forms-footer {
+    position: absolute;
+    top: 100%;
+    left: 580px;
+}
+script {
+    width: 50%;
+}
+
+/* Style Sheet for glowwithme.button.html */
+
+.mwa {
+    position: relative;
+    top: 70px;
+    right: 250px;
+    font-family: 'Abril Fatface', serif;
+    font-size: 30px;
+}
+.beauty {
+    position: relative;
+    left: 50%;
+    top: 10%;
+    width: 50%;
+}
+ .treat {
+    position: relative;
+    left: 50%;
+    top: 200px;
+    width: 50%;
+ }
+ .make {
+    position: relative;
+    left: 50%;
+    top: 7px;
+    width: 50%;
+ }
+
+.p1 {
+    position: absolute;
+    left: 220px;
+    bottom: 270px;
+    font-size: 20px;
+    font-family: 'Abhaya Libre', serif;
+    font-weight: bold;
+ }
+.p2 {
+    position: absolute;
+    left: 200px;
+    bottom: 240px;
+    font-size: 20px;
+    font-family: 'Abhaya Libre', serif;
+    font-weight: bold;
+ }
+.p3 {
+    position: absolute;
+    left: 200px;
+    bottom: 210px;
+    font-size: 20px;
+    font-family: 'Abhaya Libre', serif;
+    font-weight: bold;
+ }
+.p4 {
+    position: absolute;
+    left: 210px;
+    bottom: 180px;
+    font-size: 20px;
+    font-family: 'Abhaya Libre', serif;
+    font-weight: bold;
+ }
+ .p5 {
+    position: absolute;
+    left: 250px;
+    bottom: 150px;
+    font-size: 20px;
+    font-family: 'Abhaya Libre', serif;
+    font-weight: bold;
+ }
+ .p6 {
+    position: absolute;
+    left: 280px;
+    bottom: 120px;
+    font-size: 20px;
+    font-family: 'Abhaya Libre', serif;
+    font-weight: bold;
+ }
