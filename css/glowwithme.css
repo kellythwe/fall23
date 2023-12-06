@@ -104,26 +104,10 @@ i {
 i:hover{
     color: rgb(212, 237, 223);
 }
-.password:hover{
-    color: rgb(62, 162, 169);
-}
-.up:hover{
-    color: rgb(62, 162, 169);
-}
+
 div {
     width: 50%;
     margin: auto;
-}
-
-.btn {
-    color: rgb(99, 68, 64);
-    position:relative;
-    top: 155px;
-    font-family: 'Abril Fatface', serif;
-    background-color: rgba(62, 162, 169, 30%);
-    border-radius: 10%;
-    width: 20%;
-    height: 10%;
 }
 
 .Join {
@@ -136,8 +120,10 @@ div {
     color:rgb(62, 162, 169);
 }
 .Meet {
+    text-decoration: none;
+    color: rgb(99, 68, 64);
     position: relative;
-    Left: 30px;
+    Left: 50px;
 }
 
 div img {
@@ -151,18 +137,37 @@ button {
     background-color: rgba(255, 255, 255, 50%);
     padding: 3%;
     color: rgb(99, 68, 64);
-    border-radius: 30px;
+    border-radius: 20px;
     font-family: 'Abril Fatface', serif;
     font-size: 20px;
     position: relative;
     top: 50px;
 }
 
-.member {
-    position:absolute;
-    bottom: 85%;
-    left: 40%;
-    font-size: 20px;
+footer{
+    color: rgb(99, 68, 64);
+    font-family: 'Abhaya Libre', serif;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 5%;
+    font-weight: bold;
+}
+
+/* Style Sheet for glowwithme.forms.html */
+.btn {
+    position:relative;
+    top: 155px;
+    font-family: 'Abril Fatface', serif;
+    background-color: rgba(62, 162, 169, 30%);
+    border-radius: 10%;
+    width: 20%;
+    height: 10%;
+}
+.password:hover{
+    color: rgb(62, 162, 169);
+}
+.up:hover{
+    color: rgb(62, 162, 169);
 }
 
 .signin {
@@ -195,13 +200,11 @@ button {
     font-size: 10px;
 }
 
-footer{
-    color: rgb(99, 68, 64);
-    font-family: 'Abhaya Libre', serif;
-    font-size: 15px;
-    text-align: center;
-    padding-top: 5%;
-    font-weight: bold;
+.member {
+    position:absolute;
+    bottom: 85%;
+    left: 40%;
+    font-size: 20px;
 }
 
 .forms-footer {
@@ -209,3 +212,83 @@ footer{
     top: 100%;
     left: 580px;
 }
+script {
+    width: 50%;
+}
+
+/* Style Sheet for glowwithme.button.html */
+
+.mwa {
+    position: relative;
+    top: 70px;
+    right: 250px;
+    font-family: 'Abril Fatface', serif;
+    font-size: 30px;
+}
+.beauty {
+    position: relative;
+    left: 50%;
+    top: 10%;
+    width: 50%;
+}
+ .treat {
+    position: relative;
+    left: 50%;
+    top: 200px;
+    width: 50%;
+ }
+ .make {
+    position: relative;
+    left: 50%;
+    top: 7px;
+    width: 50%;
+ }
+
+.p1 {
+    position: absolute;
+    left: 220px;
+    bottom: 270px;
+    font-size: 20px;
+    font-family: 'Abhaya Libre', serif;
+    font-weight: bold;
+ }
+.p2 {
+    position: absolute;
+    left: 200px;
+    bottom: 240px;
+    font-size: 20px;
+    font-family: 'Abhaya Libre', serif;
+    font-weight: bold;
+ }
+.p3 {
+    position: absolute;
+    left: 200px;
+    bottom: 210px;
+    font-size: 20px;
+    font-family: 'Abhaya Libre', serif;
+    font-weight: bold;
+ }
+.p4 {
+    position: absolute;
+    left: 210px;
+    bottom: 180px;
+    font-size: 20px;
+    font-family: 'Abhaya Libre', serif;
+    font-weight: bold;
+ }
+ .p5 {
+    position: absolute;
+    left: 250px;
+    bottom: 150px;
+    font-size: 20px;
+    font-family: 'Abhaya Libre', serif;
+    font-weight: bold;
+ }
+ .p6 {
+    position: absolute;
+    left: 280px;
+    bottom: 120px;
+    font-size: 20px;
+    font-family: 'Abhaya Libre', serif;
+    font-weight: bold;
+ }
