@@ -36,7 +36,7 @@ h1 {
 nav{
     width: 60%;
     position: relative;
-    left: 60%;
+    left: 70%;
     top: 80%;
     font-size: 20px;
 }
@@ -69,6 +69,19 @@ main{
     text-align: center;
 }
 
+video {
+    position: relative;
+    top: 50px;
+}
+
+/* div img {
+    width: 200%;
+    height: 550px;
+    position: relative;
+    right: 50%;
+    opacity: 30%;
+} */
+
 .forms-main {
     background-color: rgba(255, 255, 255, 50%);
     border-radius: 5%;
@@ -79,20 +92,10 @@ main{
     top: 70px;
     left: 450px;
 }
-input {
-    background-color:  rgba(255, 255, 255, 0%);
-    border-width: 0;
-    border-bottom: 1px solid rgb(99, 68, 64);
-    position:relative;
-    top: 117px;
-    font-size: 10px;
-    width: 50%;
-    padding: 4%;
-    font-family: 'Abhaya Libre', serif;
-}
+
 i {
     position: absolute;
-    right:3%;
+    right:4.5%;
     color:rgb(62, 162, 169);
     background-color: rgba(255, 255, 255, 50%);
     border: 2px solid rgb(165, 190, 186);
@@ -113,8 +116,10 @@ div {
 .Join {
     text-decoration: none;
     color:rgb(99, 68, 64);
+}
+.J {
     position: relative;
-    left: 3px;
+    top: 90px;
 }
 .Join:hover {
     color:rgb(62, 162, 169);
@@ -122,18 +127,20 @@ div {
 .Meet {
     text-decoration: none;
     color: rgb(99, 68, 64);
+}
+.M {
     position: relative;
-    Left: 3px;
-    
+    top: 90px;
+    Left: 18px;
 }
 .Meet:hover {
     color: rgb(62, 162, 169);
 }
-div img {
+/* div img {
     width: 100%;
     position: relative;
     top: 40px;
-}
+} */
 
 
 button {
@@ -154,6 +161,9 @@ footer{
     text-align: center;
     padding-top: 5%;
     font-weight: bold;
+    position: absolute;
+    top: 100%;
+    left: 580px;
 }
 
 /* Style Sheet for glowwithme.forms.html */
@@ -172,7 +182,17 @@ footer{
 .up:hover{
     color: rgb(62, 162, 169);
 }
-
+input {
+    background-color:  rgba(255, 255, 255, 0%);
+    border-width: 0;
+    border-bottom: 1px solid rgb(99, 68, 64);
+    position:relative;
+    top: 117px;
+    font-size: 10px;
+    width: 50%;
+    padding: 4%;
+    font-family: 'Abhaya Libre', serif;
+}
 .signin {
     position:absolute;
     bottom: 75%;
@@ -210,11 +230,11 @@ footer{
     font-size: 20px;
 }
 
-.forms-footer {
+/* .forms-footer {
     position: absolute;
     top: 100%;
     left: 580px;
-}
+} */
 
 /* Style Sheet for glowwithme.page3.html */
 
@@ -255,43 +275,112 @@ footer{
 }
 .p1 {
     position: absolute;
-    left: 220px;
-    bottom: 230px;
+    left: 190px;
+    top: 50%;
     font-size: 20px;
     font-family: 'Abhaya Libre', serif;
  }
-.p2 {
-    position: absolute;
-    left: 200px;
-    bottom: 200px;
-    font-size: 20px;
-    font-family: 'Abhaya Libre', serif;
- }
-.p3 {
-    position: absolute;
-    left: 200px;
-    bottom: 170px;
-    font-size: 20px;
-    font-family: 'Abhaya Libre', serif;
- }
-.p4 {
-    position: absolute;
-    left: 210px;
-    bottom: 140px;
-    font-size: 20px;
-    font-family: 'Abhaya Libre', serif;
+
+ /* Style Sheet for glowwithme.page3.html */
+
+.Ourteam {
+    position: relative;
+    left: 1%;
+    top: 80px;
 }
- .p5 {
-    position: absolute;
-    left: 250px;
-    bottom: 110px;
-    font-size: 20px;
-    font-family: 'Abhaya Libre', serif;
+.Contactus {
+    position: relative;
+    left: 3%;
+    top: 80px;
+}
+
+.about {
+    position: relative;
+    top: 40px;
+}
+.ab {
+    position: relative;
+    top: 60px;
+    left: 23%;
+    background-color: rgba(255, 255, 255, 30%);
+    border: double rgb(99, 68, 64);
+    padding: 2%;
+    width: 50%;
+    height: 250px;
+}
+
+ /* Style Sheet for glowwithme.platform.html */
+ .new {
+    background-color: rgba(255, 255, 255, 0%);
+    border: solid rgb(99, 68, 64);
+    border-radius: 0%;
+    width: 80%;
+    height: 120px;
+    font-size: 35px;
+    padding: 5%;
+    position: relative;
+    top: 80px;
  }
- .p6 {
-    position: absolute;
-    left: 280px;
-    bottom: 80px;
+ .new:hover {
+    color: rgb(62, 162, 169);
+ }
+ .skin {
+    background-color: rgba(255, 255, 255, 0%);
+    border: solid rgb(99, 68, 64);
+    border-radius: 0%;
+    width: 35%;
+    height: 90px;
     font-size: 20px;
-    font-family: 'Abhaya Libre', serif;
+    padding: 5%;
+    position: relative;
+    top: 120px;
+    right: 5%;
+ }
+ .skin:hover {
+    color: rgb(62, 162, 169);
+ }
+ .makeup {
+    background-color: rgba(255, 255, 255, 0%);
+    border: solid rgb(99, 68, 64);
+    border-radius: 0%;
+    width: 35%;
+    height: 90px;
+    font-size: 20px;
+    padding: 5%;
+    position: relative;
+    top: 120px;
+    left: 5%;
+ }
+ .makeup:hover {
+    color: rgb(62, 162, 169);
+ }
+ .hair {
+    background-color: rgba(255, 255, 255, 0%);
+    border: solid rgb(99, 68, 64);
+    border-radius: 0%;
+    width: 35%;
+    height: 90px;
+    font-size: 20px;
+    padding: 5%;
+    position: relative;
+    top: 150px;
+    right: 5%;
+ }
+ .hair:hover {
+    color: rgb(62, 162, 169);
+ }
+ .sale {
+    background-color: rgba(255, 255, 255, 0%);
+    border: solid rgb(99, 68, 64);
+    border-radius: 0%;
+    width: 35%;
+    height: 90px;
+    font-size: 20px;
+    padding: 5%;
+    position: relative;
+    top: 150px;
+    left: 5%;
+ }
+ .sale:hover {
+    color: rgb(62, 162, 169);
  }
