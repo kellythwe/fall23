@@ -22,6 +22,12 @@ header {
     font-family: 'Abril Fatface', serif;
 }
 
+.slogan {
+    position: relative;
+    top: 35px;
+    font-family: 'Abril Fatface', serif;
+    font-weight: lighter;
+}
 body{
     font-family: 'Abhaya Libre', serif;
     background-color: rgb(165, 190, 186);
@@ -72,6 +78,7 @@ main{
 video {
     position: relative;
     top: 50px;
+    left: 12px;
 }
 
 /* div img {
@@ -119,7 +126,7 @@ div {
 }
 .J {
     position: relative;
-    top: 90px;
+    top: 80px;
 }
 .Join:hover {
     color:rgb(62, 162, 169);
@@ -130,8 +137,8 @@ div {
 }
 .M {
     position: relative;
-    top: 90px;
-    Left: 18px;
+    top: 80px;
+    Left: 30px;
 }
 .Meet:hover {
     color: rgb(62, 162, 169);
@@ -306,10 +313,21 @@ input {
     border: double rgb(99, 68, 64);
     padding: 2%;
     width: 50%;
-    height: 250px;
+    height: 200px;
 }
-
- /* Style Sheet for glowwithme.platform.html */
+.button {
+    position: relative;
+}
+.bg {
+    opacity: 0.15;
+    position: absolute;
+    left: 0;
+    top: 135px;
+    width: 100%;
+    height: 93%;
+    background-size: auto;
+}
+ /* Style Sheet for glowwithme.shop.html */
  .new {
     background-color: rgba(255, 255, 255, 0%);
     border: solid rgb(99, 68, 64);
@@ -384,3 +402,21 @@ input {
  .sale:hover {
     color: rgb(62, 162, 169);
  }
+ /* .demo-wrap {
+    overflow: hidden;
+    position: relative;
+  } */
+  
+  .demo-bg {
+    opacity: 0.15;
+    position: absolute;
+    left: 0;
+    top: 135px;
+    width: 100%;
+    height: 93%;
+    background-size: auto;
+  }
+  
+  .demo-content {
+    position: relative;
+  }
